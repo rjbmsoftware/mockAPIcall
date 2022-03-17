@@ -1,0 +1,16 @@
+[
+  {
+    "id": "base",
+    "routesVariants": ["greeting:aGreeting", "proxy-all:real-api"]
+  },
+  {
+    "id": "greeting",
+    "from": "base",
+    "routesVariants": ["greeting:aGreeting"]
+  },
+  {
+    "id": "proxy-all",
+    "from": "base",
+    "routesVariants": ["proxy-all:real-api"]
+  }
+]
